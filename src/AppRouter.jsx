@@ -1,7 +1,9 @@
 import React from 'react';
 import Inicio from './Pages/Inicio';
 import Layout from './Components/Layout';
-import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
+import About from './Pages/About';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Conocimientos from './Pages/Conocimientos';
 
 
 function AppRouter () {
@@ -9,7 +11,9 @@ function AppRouter () {
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route path="/" component={ Inicio } exact/>     
+                    <Route path="/" component={ Inicio } exact/> 
+                    <Route path="/Sobre-mi" component={ About } exact/>  
+                    <Route path="/Conocimientos" component={ Conocimientos } exact/>      
                 </Switch>
             </Layout>
         </BrowserRouter>

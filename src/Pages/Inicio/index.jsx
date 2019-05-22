@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
 
 
 function Inicio (props){
@@ -9,13 +9,13 @@ function Inicio (props){
 
             <div className="Informacion">
 
-           
+           <p className="nombre">Felipe Bedoya</p>
 
             </div>
+
         </div>        
 
     );
 }
-
 
 export default Inicio;
