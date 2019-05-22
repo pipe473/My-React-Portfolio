@@ -9,17 +9,12 @@ function Inicio (props){
 
             <div className="Informacion">
 
-            <NavLink activeClassName="is-active" to="/">Inicio</NavLink>
-            <NavLink activeClassName="is-active" to="/Sobre-mi">Sobre mi</NavLink>
-            <NavLink activeClassName="is-active" to="/Proyectos">Proyectos</NavLink>
-            <NavLink activeClassName="is-active" to="/Contacto">Contacto</NavLink>
+           
 
             </div>
-        </div>
-        
+        </div>        
 
     );
-
 }
 
 
