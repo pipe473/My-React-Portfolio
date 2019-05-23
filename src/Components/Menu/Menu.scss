@@ -4,7 +4,7 @@
     flex-direction: row;
     margin: auto;
     padding: 5%;
-    padding-left: 24%;
+    padding-left: 30vw;
     padding-top: 44%;    
     position: absolute;
     top: 0%;
@@ -15,16 +15,14 @@
                         font-weight: bold; 
                         background: -webkit-linear-gradient( #0fd850 0%, #f9f047 100% );            
                         -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;                 
-                                      
-
+                        -webkit-text-fill-color: transparent;               
                         }    
     
         &-item{        
 
             text-decoration: none;
             padding: 2%;
-            font-family: 'monospace';
+            font-family: 'Abel', sans-serif;
             background: -webkit-linear-gradient( #d8d8d8 0%, #f5d100 100%);            
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;  

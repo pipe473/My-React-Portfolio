@@ -1,7 +1,40 @@
 .About-me{
 
     display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('/imagenes/Bgn4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    // opacity: 0.8;
     
+
+    .titulo{
+        display: flex;
+        font-family: 'Abel', sans-serif;
+        z-index: 1;
+        margin-left: 10%;
+        background: -webkit-linear-gradient( #d8d8d8 0%, #f5d100 100%);            
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        
+        
+    }
+    
+    .parrafo{
+        background: -webkit-linear-gradient( #d8d8d8 0%, #f5d100 100%);            
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5em;
+        font-family: 'Abel', sans-serif;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 0%;
+        width: 40%;
+    }
 
 
 }
