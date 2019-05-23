@@ -10,7 +10,7 @@ function About(props) {
         Persona apasionada por la creatividad y el diseño, con interés por las
         nuevas tecnologias y el aprendizaje constante. Con experiencia en el
         diseño industrial y la delineación, habituado al trabajo en equipo y con
-        poder resolutivo...
+        habilidades resolutivas...
       </p>
     </div>
   );
