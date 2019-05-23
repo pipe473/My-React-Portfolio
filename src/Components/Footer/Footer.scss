@@ -1,0 +1,22 @@
+.Navegacion {
+  margin: auto;
+
+  .Social-Media {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 8vh;
+    padding-left: 25vw;
+    a {
+      padding: 10%;
+      color: white;
+      opacity: 0.9;
+    }
+
+    a:hover{
+                     
+        color: rgb(23, 214, 23);      
+
+    }
+  }
+}

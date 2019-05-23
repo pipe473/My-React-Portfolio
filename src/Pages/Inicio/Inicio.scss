@@ -5,14 +5,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    
-
-    
+    height: 100vh; 
+    opacity: 0.9;
 
     .Informacion{
         display: flex;
-        margin-left: 35%;
+        margin-left: 38vw;
 
         .nombre{
             
@@ -22,7 +20,7 @@
             font-family: 'Abel', sans-serif;
             background: -webkit-linear-gradient( 120deg, #0df006 60%, #e452bf 100%);            
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;          
+            -webkit-text-fill-color: transparent;         
             
         }
                 

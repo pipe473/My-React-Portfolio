@@ -1,22 +1,13 @@
-import React from 'react';
-
-import Menu from '../Menu';
-import Footer from '../Footer';
+import React from "react";
+import Menu from "../Menu";
 
 function Layout(props) {
-
-    return (
-  <div className="Menu">
-   
+  return (
+    <div className="Menu">
       <Menu />
-        {props.children}
-
-
-        <Footer />
-   
-  </div>
-
-    );
+      {props.children}
+    </div>
+  );
 }
 
 export default Layout;
