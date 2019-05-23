@@ -10,25 +10,25 @@
     font-size: 1em;
     z-index: 1;
 
-    .menu-item:hover{
-                font-weight: bold;                
-                background: -webkit-linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);            
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;                 
+            .menu-item:hover{
+                        font-weight: bold;                
+                        background: -webkit-linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);            
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;                 
 
-                }    
+                        }    
     
-    &-item{        
+        &-item{        
 
-        text-decoration: none;
-        padding: 2%;
-        font-family: 'monospace';
-        background: -webkit-linear-gradient( #d8d8d8 0%, #f5d100 100%);            
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;  
-        font-size: 1.8em;     
-       
-        } 
+            text-decoration: none;
+            padding: 2%;
+            font-family: 'monospace';
+            background: -webkit-linear-gradient( #d8d8d8 0%, #f5d100 100%);            
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;  
+            font-size: 1.8em;     
+        
+            } 
 
 }
 
