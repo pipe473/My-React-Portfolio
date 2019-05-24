@@ -23,9 +23,7 @@ function Conocimientos(props) {
                 <a className="item" href='#' target="BOOTSTRAP"></a><i class="fab fa-bootstrap"></i>
                 <a className="item" href='#' target="DOCKER"></a><i class="fab fa-docker"></i>
                 <a className="item" href='#' target="YARN"></a><i class="fab fa-yarn"></i>
-            </div>
-
-           
+            </div>           
         </div>
     );    
 }
