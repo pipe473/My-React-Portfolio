@@ -9,14 +9,22 @@
     margin-left: 22vw;
     a {
       padding: 10%;
-      color: white;
       opacity: 0.9;
-    }
 
-    a:hover{
-                     
-        color: rgb(23, 214, 23);      
+      i {
+        
+          background: -webkit-linear-gradient(120deg,#d6cbcb 0%, #f5d100 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          opacity: 0.5;
 
+        }
+          i:hover {
+            // font-weight: bold;
+            background: -webkit-linear-gradient(160deg, #e452bf 8%, #0df006 68% );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
     }
   }
 }

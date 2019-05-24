@@ -1,27 +1,22 @@
-.Inicio{
+.Inicio {
+  display: flex;
+  background-image: url("/imagenes/Bgn3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 
-    display: flex;        
-    background-image: url('/imagenes/Bgn3.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh; 
-    
+  .Informacion {
+    display: flex;
+    margin-left: 40vw;
 
-    .Informacion{
-        display: flex;
-        margin-left: 38vw;
-
-        .nombre{
-            
-            margin-top: 10vh;
-            font-size: 3.5em;
-            font-family: 'Abel', sans-serif;
-            background: -webkit-linear-gradient( 120deg, #0df006 60%, #e452bf 100%);            
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;         
-            
-        }
-                
+    .nombre {
+      margin-top: 10vh;
+      font-size: 5em;
+      font-family: "Abel", sans-serif;
+      background: -webkit-linear-gradient(120deg, #0df006 68%, #e452bf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
+  }
 }
