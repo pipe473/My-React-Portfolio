@@ -1,71 +1,41 @@
-.programas{
-    display: flex;      
-    text-align: center;
-    background-image: url('/imagenes/Bgn5.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    opacity: 0.9;
-    color: white;
-    margin: auto;   
+.programas {
+  display: flex;
+  text-align: center;
+  background-image: url("/imagenes/Bgn5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  margin: auto;  
 
-
-        h1{
-            display: flex;
-            flex-direction: row;
-            font-family: 'Abel', sans-serif;
-            margin-left: 5vw;
-            font-size: 3.2em;
-            background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 10%);            
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;                                
-        
-        }
-
-    .row1{
-
-        display: flex;
-        flex-direction: column;  
-        // padding-left: 5vw;  
-        // align-items: center;   
-        font-size: 5em;
-        color: white;
-        transform: rotateX(45deg);
-        
-        a{
-            padding: 2%;
-
-        }
-        
-        
-    }
-    &-item{
-        // margin-top: 50%;
-        
-                //
-                
+  h1 {
+    display: flex;
+    // flex-direction: column;
+    font-family: "Abel", sans-serif;
+    margin-left: 5vw;
+    font-size: 3.5em;
+    background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 17%;
+    margin-top: 0.5%;
+    font-size: 4.5em;       
     
-            }
-
-            .row2{
-                
-                display: flex;
-                flex-direction: column;      
-                align-items: center; 
-                margin-left: 0%;
-                font-size: 5em;  
-                
-                a{
-                    padding: 2%;
-        
-                }
-                      
-                }
-                    .item{
-                        // margin-top: 60%;
-                        
-            
-                    }
 }
+        .column2{
+    
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+            margin-top: 0.5%;
+            font-size: 4.5em;        
+            
+        }
 
+}
