@@ -12,8 +12,8 @@
     margin-left: 40vw;
 
     .nombre {
-      margin-top: 10vh;
-      font-size: 5em;
+      margin-top: 5vh;
+      font-size: 3.5em;
       font-family: "Abel", sans-serif;
       background: -webkit-linear-gradient(120deg, #0df006 68%, #e452bf 100%);
       -webkit-background-clip: text;
@@ -28,7 +28,18 @@
 
       .Informacion{
         margin: 0;
-        text-align: center;
+        text-align: column;
+        margin-left: 7%;
+        margin-top: 25%;
+
+        .nombre{
+          
+          font-size: 3.5em;
+          margin-left: 10%;
+          margin-top: -25%;
+          
+
+        }
       }
    }
 }
