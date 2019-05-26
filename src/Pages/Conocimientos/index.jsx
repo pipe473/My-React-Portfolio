@@ -14,7 +14,7 @@ function Conocimientos(props) {
                     <a className="item" href='#' target="NODE.JS"></a><i class="fab fa-node"></i>
                     <a className="item" href='#' target="BOOTSTRAP"></a><i class="fab fa-bootstrap"></i>
                     <a className="item" href='#' target="HTML5"></a><i class="fab fa-html5"></i>
-                    <a className="item" href='#' target="CSS3"></a><i class="fab fa-css3-alt"></i>
+                    <a className="item" href='#' target="CSS3"></a><i class="fab fa-css3-alt">...</i>
                 </div>
 
                 <div className="column2">
@@ -25,15 +25,6 @@ function Conocimientos(props) {
                     <a className="item" href='#' target="DOCKER"></a><i class="fab fa-docker"></i> 
                 </div>
 
-                <div className="column3">
-
-                <img src="./" alt="" ></img>
-
-
-
-
-
-                </div>
                 
            
             {/* <div className="row2">
