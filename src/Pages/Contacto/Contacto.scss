@@ -1,26 +1,80 @@
-.contacto {
-    
-    display: flex;      
-    // text-align: center;
+.Formulario-contacto{
+
+    display: flex;
     background-image: url('/imagenes/Bgn7.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    color: white;
+    background-position: center;
+    min-height: 100vh;
+    margin: auto;
+    // padding: 0% 0% 0% 0%;   
+    // width: 100%; 
+    // height: 100%;  
+    // opacity: 1;
+    // border-radius: 22% 22% 22% 22%; 
 
-    h1{
-        display: flex;
-        justify-content: first baseline;
-        padding-left: 4%;
-        font-family: "Abel", sans-serif;
-        background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 3.2em;
-        opacity: 0.95;
 
-    }
-    
+    .nombre-contacto{
+           display: flex; 
+           text-align: center;
+           color: white;
+           margin: auto; 
+           flex-direction: column; 
+           padding: 1%;  
+           align-items: center; 
+                           
+               input{
+                   border-bottom: 5%;
+                //    margin: 1%;
+               }
+           }
 
-}
+       .idiomas{
+           display: flex;
+           flex-direction: row;
+           padding: 3%;
+           margin-top: 4%;
+               }
+
+       .message{
+
+           display: flex;
+           flex-direction: column;
+           margin: auto;
+        //    margin-top: 5%;
+            color: white;                                
+           
+            textarea{
+
+               display: flex;
+               padding: 25%;  
+                    }
+
+               .condiciones{
+
+                   display: flex;
+                //    margin-top: 0%;
+                   color: white;
+                   text-align: center;
+
+                   }
+
+                   .boton{
+
+                       display: flex;
+                       margin-top: 5%;
+
+                       button{
+                       text-decoration:none;
+                       font-weight:600;
+                       font-size:1em;
+                       color:black;
+                       padding-top:0.8em;
+                       padding-bottom:0.6em;
+                       padding-left:1em;
+                    //    padding-right:1em;
+                    //    background-color:yellow;  
+                    //    border-radius: 20% 20% 20% 20%; 
+                        } 
+                    }
+                }
+            }
