@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: red;
+  -webkit-text-fill-color: transparent;
   margin: auto;
 
   h1 {
@@ -27,6 +27,9 @@
     margin-top: 11%;
     font-size: 4.5em;
     opacity: 0.6;
+    background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   .column2 {
     display: flex;
@@ -35,5 +38,8 @@
     margin-top: 5%;
     font-size: 4.5em;
     opacity: 0.6;
+    background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

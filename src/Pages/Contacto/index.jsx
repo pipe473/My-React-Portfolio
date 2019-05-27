@@ -4,10 +4,20 @@ import './Contacto.scss';
 
 function Contacto(props) {
     return(
-        <div className="contacto">
-            <h1>HOLA  HP</h1>
+        <div className="formulario">
+                <div className="contacto">
+                    <h1>Contacto</h1>
 
-        </div>
+                </div>
+
+            <div className="formulari">
+            
+
+
+            </div>
+
+
+    </div>
 
 
 

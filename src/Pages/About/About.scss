@@ -53,18 +53,18 @@
   }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
     display: flex;
-    font-size: 45%;
+    // font-size: 40%;
     justify-content: center;
     
 
     .titulo {
       display: flex;
-      font-size: 5em;     
+      font-size: 1.3em;     
       z-index: 1;
     }
     .parrafo {
       display: flex;
-      font-size: 3em;
+      font-size: 1.3em;
     }
 
   }

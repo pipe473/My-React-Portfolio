@@ -2,11 +2,25 @@
     
     display: flex;      
     // text-align: center;
-    background-image: url('/imagenes/Bgn1.jpg');
+    background-image: url('/imagenes/Bgn7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    color: white;
+
+    h1{
+        display: flex;
+        justify-content: first baseline;
+        padding-left: 4%;
+        font-family: "Abel", sans-serif;
+        background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3.2em;
+        opacity: 0.95;
+
+    }
     
 
 }
