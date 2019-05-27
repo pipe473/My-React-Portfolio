@@ -1,61 +1,50 @@
-.menu{
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 100vw;
+  justify-content: center;  
+  margin-left: 30%;
+  bottom: 7vh;
+  position: absolute;
+  font-size: 1.3em;
+  z-index: 1;
 
+  .menu-item:hover {
+    font-weight: bold;
+    background: -webkit-linear-gradient(#0fd850 0%, #f9f047 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &-item {
+    text-decoration: none;
+    padding: 1.3vw;
+    font-family: "Abel", sans-serif;
+    background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6em;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 500px) {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
-    max-width: 100vw;
-    justify-content: center;
-    margin-left: 25%;
-    text-align: center;
-    bottom: 4vh; 
-    position: absolute;
-    font-size: 1.1em;
-    z-index: 1;
-
-            .menu-item:hover{
-                        font-weight: bold; 
-                        background: -webkit-linear-gradient( #0fd850 0%, #f9f047 100% );            
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;               
-                        }    
-    
-        &-item{        
-
-            text-decoration: none;
-            padding: 1.5vw;
-            font-family: 'Abel', sans-serif;
-            background: -webkit-linear-gradient( #d6cbcb 0%, #f5d100 100%);            
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;  
-            font-size: 1.8em;     
-        
-            } 
-
-            @media screen  and (min-width:200px) and (max-width:500px){
-     
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                // padding-left: 15%;
-                justify-content: center;
-                margin: auto;
-                
-                
-         
-            }
-
-            @media screen  and (min-width:500px) and (max-width:1000px){
-     
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                text-align: center;
-                margin: 0;
-                margin: auto;
-                width: 100%;
-
-           
-            }
+    font-size: 80%;
+    &-item {
+      font-size: 5vh;
     }
-    
+  }
 
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    margin: auto;
+    width: 100%;
+  }
+}
