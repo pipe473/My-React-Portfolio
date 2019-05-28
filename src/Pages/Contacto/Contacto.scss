@@ -1,94 +1,91 @@
-.Formulario-contacto{
+.Formulario-contacto {
+  display: flex;
+  background-image: url("/imagenes/Bgn7.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: auto;
+  font-size: 90%;
+  // padding: 0% 0% 0% 0%;
+  // width: 100%;
+  // height: 100%;
+  // opacity: 1;
+  // border-radius: 22% 22% 22% 22%;
 
+  .nombre-contacto {
+    //    padding: 2%;
+    //    text-align: center;
+    //    margin: auto;
+    //    margin: 1%;
+    //    padding-top:1%;
     display: flex;
-    background-image: url('/imagenes/Bgn7.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    margin: auto;
-    // padding: 0% 0% 0% 0%;   
-    // width: 100%; 
-    // height: 100%;  
-    // opacity: 1;
-    // border-radius: 22% 22% 22% 22%; 
-    
-    
-    .nombre-contacto{
-        
-           display: flex; 
-           font-family: 'Cute Font', cursive;
-           font-size: 2em;
-                           
-           
-           text-align: center;
-           color: white;
-           margin: auto; 
-           flex-direction: column; 
-           padding: 2%;  
-           align-items: center; 
-           opacity: 0.8;
-                           
-               input{
-                   all:unset;
-                   border-bottom: solid 2px white;  
-                //    margin: 1%;
-               }
-           }
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Cute Font", cursive;
+    font-size: 2em;
+    padding-left: 20%;
+    color: #e5cd63;  
+    opacity: 0.8;
+    input {
+      all: unset;
+      border-bottom: solid 2px #d6cbcb;
+      font-size: 65%;
+    }
+  }
 
-    //    .idiomas{
-    //        display: flex;
-    //        flex-direction: row;
-    //        padding: 3%;
-    //        margin-top: 4%;
-    //            }
+  //    .idiomas{
+  //        display: flex;
+  //        flex-direction: row;
+  //        padding: 3%;
+  //        margin-top: 4%;
+  //            }
 
-       .message{
-           //    all:unset;
-           //    margin-top: 5%;
-           display: flex;
-           flex-direction: column;
-           
-        //    margin: auto;
-           font-family: 'Cute Font', cursive;
-           font-size: 2em;
-           padding-top:2%;
-           color: white;  
-           opacity: 0.8;
-                                       
-           
-            textarea{                
-               display: flex;
-               padding: 5%; 
-               all:unset; 
-               border-bottom: solid 2px  white;
-               margin: 5%;
-                    }
+  .message {
+    //    all:unset;
+    //    margin-top: 5%;
+    //    margin: auto;
+    //    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: "Cute Font", cursive;
+    font-size: 2em;
+    padding-left: 25%;
+    color: #e5cd63;
+    opacity: 0.9;
 
-               .condiciones{
-                   //    margin-top: 0%;
-                   display: flex;
-                   color: white;
-                   text-align: center;
-                   
+    textarea {
+      //    padding: 3%;
+      display: flex;
+      all: unset;
+      border-bottom: solid 2px #d6cbcb;
+      //    margin-top: 0%;
+    }
 
-                   }
+    .condiciones {
+      //    margin-top: 0%;
+      display: flex;
+      color: #e5cd63;
+      text-align: center;
+      margin-top: 6%;
+    }
 
-                   .boton{
-                       display: flex;
-                       margin-top: 5%;
-
-                       button{
-                       text-decoration:none;
-                       font-weight:500;
-                       font-size:0.5em;
-                       color:black;
-                       padding-top:0.8em;
-                       padding-bottom:0.6em;
-                       padding-left:1em;
-                       padding-right:1em;
-                       border-radius: 42% 42% 42% 42%; 
-                    //    background-color:yellow;  
-                        } 
-                    }
-                }
-            }
+    .boton {
+      display: flex;
+      margin-top: 6%;
+      button {
+        text-decoration: none;
+        font-family: "Cute Font", cursive;
+        font-weight: 500;
+        font-size: 0.6em;
+        color: black;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 40% 40% 40% 40%;
+        //    background-color:yellow;
+      }
+    }
+  }
+}

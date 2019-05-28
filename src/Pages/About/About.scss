@@ -34,8 +34,7 @@
 
   @media screen and (min-width: 200px) and (max-width: 500px) {
     display: flex;
-    font-size: 0.9em; 
-   
+    font-size: 0.9em;   
    
 
     .titulo {
@@ -46,26 +45,24 @@
     .parrafo{
         font-size: 1.6em;
         width: 100%;
-        margin: 0;       
+        margin: 0;     
         
 
     }
   }
   @media screen and (min-width: 500px) and (max-width: 1000px) {
-    display: flex;
     // font-size: 40%;
-    justify-content: center;
-    
+    display: flex;
+    justify-content: center;    
 
     .titulo {
       display: flex;
       font-size: 1.3em;     
       z-index: 1;
     }
-    .parrafo1 {
+    .parrafo {
       display: flex;
       font-size: 1.3em;
     }
-
   }
 }

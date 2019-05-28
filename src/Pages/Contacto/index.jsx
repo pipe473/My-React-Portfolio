@@ -28,6 +28,8 @@ class FormApp extends React.Component {
     }
   
     save(event) {
+      console.log(event);
+      
       if (!this.validate()) {
         return;
       }
@@ -129,13 +131,14 @@ class FormApp extends React.Component {
   
               <div className="boton">
                 <button onClick={this.save.bind(this)}>Enviar</button>
+
                 <span>{this.state.message}</span>
               </div>
             </div>
   
-            {/* <div>
-          <span>{JSON.stringify(this.state)}</span>
-          </div> */}
+            <div>
+          {/* <span>{JSON.stringify(this.state)}</span> */}
+          </div>
           </form>
         </section>
       );
