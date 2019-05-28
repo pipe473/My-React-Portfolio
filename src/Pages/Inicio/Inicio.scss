@@ -10,14 +10,14 @@
 
   .Informacion {
     display: flex;
-    margin-left: 40vw;    
+    margin-left: 36vw;    
 
     .nombre {
       margin-top: 5vh;
-      font-size: 3.5em;
-      font-weight: bold;
-      font-family: "Abel", sans-serif;
-      background: -webkit-linear-gradient(120deg, #0df006 68%, #e452bf 100%);
+      font-size: 5.2em;
+      // font-weight: bold;
+      font-family: 'Cute Font', cursive;
+      background: -webkit-linear-gradient(120deg, #0df006 10%, #e452bf 90%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;      
     }

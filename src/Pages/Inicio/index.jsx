@@ -9,7 +9,7 @@ function Inicio(props) {
   return (
     <div className="Inicio">
       <div className="Informacion">
-        <ScrollAnimation animateIn="lightSpeedIn" duration="2">
+        <ScrollAnimation animateIn="lightSpeedIn" duration="3">
           <p className="nombre">Felipe Bedoya</p>
         </ScrollAnimation>
       </div>
