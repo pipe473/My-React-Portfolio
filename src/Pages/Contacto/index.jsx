@@ -124,7 +124,7 @@ class FormApp extends React.Component {
                   value={this.state.acept}
                   onChange={this.onChange.bind(this)}
                 />
-                Acepto ley de politica de privacidad
+                Acepto terminos y condiciones
               </div>
   
               <div className="boton">

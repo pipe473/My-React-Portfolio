@@ -11,57 +11,56 @@
     // height: 100%;  
     // opacity: 1;
     // border-radius: 22% 22% 22% 22%; 
-
-
+    
+    
     .nombre-contacto{
-           display: flex; 
+        // all:unset;
+            display: flex; 
            text-align: center;
            color: white;
            margin: auto; 
            flex-direction: column; 
-           padding: 1%;  
+           padding: 0%;  
            align-items: center; 
                            
                input{
-                   border-bottom: 5%;
+                   border-bottom: 10%;
                 //    margin: 1%;
                }
            }
 
-       .idiomas{
-           display: flex;
-           flex-direction: row;
-           padding: 3%;
-           margin-top: 4%;
-               }
+    //    .idiomas{
+    //        display: flex;
+    //        flex-direction: row;
+    //        padding: 3%;
+    //        margin-top: 4%;
+    //            }
 
        .message{
-
+           //    all:unset;
+           //    margin-top: 5%;
            display: flex;
            flex-direction: column;
            margin: auto;
-        //    margin-top: 5%;
             color: white;                                
            
             textarea{
-
+                // all:unset;
                display: flex;
-               padding: 25%;  
+               padding: 15%;  
                     }
 
                .condiciones{
-
+                   //    margin-top: 0%;
                    display: flex;
-                //    margin-top: 0%;
                    color: white;
                    text-align: center;
 
                    }
 
                    .boton{
-
                        display: flex;
-                       margin-top: 5%;
+                       margin-top: 1%;
 
                        button{
                        text-decoration:none;
@@ -71,9 +70,9 @@
                        padding-top:0.8em;
                        padding-bottom:0.6em;
                        padding-left:1em;
-                    //    padding-right:1em;
+                       padding-right:1em;
+                       border-radius: 42% 42% 42% 42%; 
                     //    background-color:yellow;  
-                    //    border-radius: 20% 20% 20% 20%; 
                         } 
                     }
                 }
