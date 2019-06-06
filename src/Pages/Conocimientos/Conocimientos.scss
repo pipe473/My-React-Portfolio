@@ -13,8 +13,9 @@
     display: flex;
     // flex-direction: column;
     font-family: "Abel", sans-serif;
-    margin-left: 5vw;
-    font-size: 3.5em;
+    // margin-left: 1vw;
+    padding-left: 2%;
+    font-size: 3.3em;
     background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 10%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,22 +24,22 @@
     display: flex;
     flex-direction: row;
     // align-content: center;
-    margin-left: 22%;
-    margin-top: 9%;
+    padding-left: 13%;
+    margin-top: 20%;
     font-size: 3em;
     opacity: 1;
-    background: -webkit-linear-gradient(#4403b6 10%, #f5d100 80%);
+    background: -webkit-linear-gradient(rgb(233, 229, 7) 15%, #f3f3f3 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
   .column2 {
     display: flex;
     flex-direction: row;
-    margin-left: -36%;
-    margin-top: 2%;
+    padding-left: 1%;
+    margin-top: 55%;
     font-size: 3em;
     opacity: 1;
-    background: -webkit-linear-gradient(#f5d100  0%, #4403b6 100%, );
+    background: -webkit-linear-gradient(rgb(233, 229, 7) 15%, #f3f3f3 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
