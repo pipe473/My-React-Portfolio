@@ -68,23 +68,43 @@
   }
 
   @media screen and (min-width: 200px) and (max-width: 500px) {
-    display: flex;
-    font-size: 0.9em;   
-   
 
-    .titulo {
-    //   width: 100%;
+    font-size: .6em; 
+    // padding-top: 2%;
+    
+    .About-me{
+    display: flex;
+    flex-direction: column;   
+    text-align: center; 
+    
+
+   h1{
+     
+
+    .titulo{
+      display: flex;
+      flex-direction: row;
       z-index: 1;
+
+
     }
+
+   }
+
+    // .titulo {
+    // //   width: 100%;
+    //   z-index: 1;
+    // }
 
     .parrafo{
         font-size: 1.6em;
         width: 100%;
-        margin: 0;     
+        // margin: 0;     
         
 
     }
   }
+}
   @media screen and (min-width: 500px) and (max-width: 1000px) {
     // font-size: 40%;
     display: flex;

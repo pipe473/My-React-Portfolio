@@ -32,9 +32,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-    font-size: 20%;
-    &-item {
-      font-size: 5vh;
+    font-size: 1.3em;
+    
+    // font-size: .6em;
+    .menu {
+      display: flex;
+      text-align: end;
+      
     }
   }
 
