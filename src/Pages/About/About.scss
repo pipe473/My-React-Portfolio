@@ -69,7 +69,8 @@
 
   @media screen and (min-width: 200px) and (max-width: 500px) {
 
-    font-size: .6em; 
+    font-size: .5em; 
+    margin-top: 0%;
     // padding-top: 2%;
     
     .About-me{
@@ -108,16 +109,17 @@
   @media screen and (min-width: 500px) and (max-width: 1000px) {
     // font-size: 40%;
     display: flex;
-    justify-content: center;    
+    // justify-content: center;    
+    font-size: .6em; 
 
     .titulo {
       display: flex;
       font-size: 1.3em;     
       z-index: 1;
     }
-    .parrafo {
-      display: flex;
-      font-size: 1.3em;
-    }
+    // .parrafo {
+    //   display: flex;
+    //   font-size: 1.3em;
+    // }
   }
 }

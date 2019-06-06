@@ -45,4 +45,48 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media screen  and (min-width:200px) and (max-width:500px){
+     
+    display: flex;
+    margin: 0;
+    // text-align: center;
+    font-size: 1.5em;
+
+    .programas{
+
+      h1{
+        .title{
+        display: flex;
+        z-index: 1;
+        background: -webkit-linear-gradient(#d6cbcb 0%, #f5d100 10%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+        }
+
+      }
+
+      .column1{
+        &-item{
+          font-size: .2em;
+          margin: 50%;
+
+
+        }
+
+      }
+
+    }
+
+   
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+ // font-size: 40%;
+    display: flex;
+    flex-direction: row;
+
+  
+}
 }

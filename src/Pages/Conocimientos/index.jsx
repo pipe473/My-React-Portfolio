@@ -9,7 +9,7 @@ function Conocimientos(props) {
 
         <div className="programas">
 
-            <h1>Conocimientos</h1>
+            <h1 className="title">Conocimientos</h1>
             <ScrollAnimation animateIn="rotateInDownLeft" duration="2">
                 <div className="column1">
                     <a className="item" href='#' target="SASS"></a><i class="fab fa-sass"></i>
